@@ -1,0 +1,21 @@
+img {
+  width: 250px;
+  margin: 100px auto;
+  display: block;
+  margin: 60px auto;
+}
+/* part 1 */
+.one:hover {
+  transform: skew(45deg, 45deg);
+  transition: transform 3s;
+}
+
+/* part 2 */
+/* .one:hover {
+  transform: skewX(45deg);
+  transition: transform 2s;
+}
+img:hover {
+  transform: skewY(45deg);
+  transition: transform 2s 2s;
+} */
